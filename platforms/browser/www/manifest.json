@@ -1,0 +1,9 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "PhoneGapChatting",
+  "short_name": "PhoneGapChatting",
+  "version": "com.dustin.phonegapchatting",
+  "icons": [],
+  "start_url": "index.html"
+}

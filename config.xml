@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.dustin.phonegapchatting" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>PhoneGapChatting</name>
+    <description>
+    </description>
+    <access origin="*" />
+    <preference name="phonegap-version" value="7.0.0" />
+    <gap:plugin name="org.apache.cordova.file" />
+    <gap:plugin name="com.ququplay.websocket.websocket" />
+    <engine name="android" spec="^7.1.1" />
+    <engine name="ios" spec="^4.5.5" />
+    <engine name="browser" spec="^5.0.4" />
+</widget>
