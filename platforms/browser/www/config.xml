@@ -3,8 +3,14 @@
     <name>PhoneGapChatting</name>
     <description>
     </description>
+    <content src="index.html" />
     <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
     <gap:plugin name="org.apache.cordova.file" />
     <gap:plugin name="com.ququplay.websocket.websocket" />
-    <preference name="phonegap-version" value="3.3.0" />
 </widget>
